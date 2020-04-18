@@ -1,5 +1,7 @@
 module zad1804
 
-greet() = print("Hello World!")
+my_f(x) = x^4 - 10x + 2
+
+export my_f
 
 end # module
